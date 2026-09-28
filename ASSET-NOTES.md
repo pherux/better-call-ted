@@ -19,4 +19,4 @@ Final prompt:
 
 ## Typography and graphics
 
-Anton and DM Sans are served locally through Fontsource packages and retain their upstream open font licenses in those packages. The wordmark, icon, borders, halftone pattern, and decorative marks are original HTML/CSS/SVG treatments. No assets from Better Call Saul or Breaking Bad are included.
+Anton and DM Sans are served locally through Fontsource packages. Their upstream open font licenses are included in `public/licenses/` and are deployed with the fonts. The wordmark, icon, borders, halftone pattern, and decorative marks are original HTML/CSS/SVG treatments. No assets from Better Call Saul or Breaking Bad are included.
