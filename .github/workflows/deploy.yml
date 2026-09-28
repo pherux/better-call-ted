@@ -30,7 +30,7 @@ jobs:
       - run: npm test
       - run: npm run build
         env:
-          SITE_URL: ${{ vars.SITE_URL || 'https://pherux.github.io/better-call-ted/' }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://bettercallted.co/' }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 const siteUrl = new URL(
-  process.env.SITE_URL || "https://pherux.github.io/better-call-ted/",
+  process.env.SITE_URL || "https://bettercallted.co/",
 );
 siteUrl.search = "";
 siteUrl.hash = "";

@@ -2,8 +2,8 @@
 
 A bold personal and business branding website for Ted Moss. Built with HTML, CSS, and JavaScript, with Vite for development and production builds. Hosted on GitHub Pages.
 
-- Website: https://pherux.github.io/better-call-ted/
-- Intended custom domain: **bettercallted.co** (purchase and DNS connection pending)
+- Website: https://bettercallted.co/
+- Custom domain and DNS configured on September 28, 2026. GitHub manages the HTTPS certificate.
 - Contact: **valkyrie241@gmail.com**
 
 ## Run locally
@@ -64,7 +64,7 @@ Use a default TTL or 3600 seconds. Replace conflicting parking A/AAAA records fo
 6. In repository **Settings → Secrets and variables → Actions → Variables**, set **SITE_URL** to `https://bettercallted.co/`. Re-run the deployment workflow to update the canonical URL, sitemap, and metadata. This variable is public configuration, not a secret.
 7. Verify HTTPS at both the apex and `www`, the portraits and fonts, the brand check, and the inquiry flow.
 
-This GitHub Actions publishing workflow uses the repository's Pages custom-domain setting; a `CNAME` file is not required. The default GitHub URL remains the working destination until the purchased domain is connected.
+This GitHub Actions publishing workflow uses the repository's Pages custom-domain setting; a `CNAME` file is not required. The original GitHub URL redirects to the configured custom domain.
 
 Official references (checked September 28, 2026):
 
